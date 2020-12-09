@@ -45,8 +45,8 @@
   padding: 30px;
   background-color: #ffffff;
   margin-bottom: 5px;
-  margin-top: -30px;
-  border-radius: 50px;
+  margin-top: -100px;
+  /*border-radius: 50px;*/
   background: #f7fcfe;
   box-shadow: 20px 20px 60px #c9cfd4, -20px -20px 60px #ffffff;
 }
@@ -56,10 +56,11 @@
     text-align: center;
     padding: 30px;
     background-color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
+    margin-top: 10px;
     border-radius: 50px;
-    background: #ecf4f9;
-    box-shadow: 20px 20px 60px #c9cfd4, -20px -20px 60px #ffffff;
+    background: #ffffff;
+    box-shadow: 20px 20px 60px #e6ebf0, -20px -20px 60px #ffffff;
   }
 }
 
