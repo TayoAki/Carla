@@ -1,0 +1,61 @@
+#logo {
+  max-height: 70px;
+}
+
+.hero {
+  color: #090808;
+  position: relative;
+  /*padding-top: 104px;*/
+  /*padding: 114px;*/
+  margin-top: 60px;
+}
+
+.jumbotron.jumbotron-fluid {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  background-image: "group.jpg";
+}
+
+.clean-block.clean-hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: currentColor;
+  z-index: 1;
+}
+
+#hero {
+  margin-top: 90px;
+}
+
+header.masthead {
+  margin-bottom: 50px;
+  background: no-repeat 50%;
+  background-color: #6c757d;
+  background-attachment: scroll;
+  position: relative;
+  background-size: cover;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #212529;
+  opacity: .5;
+}
+
+.learn-more {
+  color: rgb(117,23,119;
+}
+
+.learn-more a {
+  color: #fff;
+}
+
