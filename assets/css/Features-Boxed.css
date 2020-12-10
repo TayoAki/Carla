@@ -85,7 +85,17 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 370px) {
+.card-body {
+  font-size: 12px;
+}
+
+@media (max-width: 450px) {
+  .card-body {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
   .card-body {
     font-size: 10px;
   }
