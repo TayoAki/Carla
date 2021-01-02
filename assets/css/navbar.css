@@ -24,3 +24,17 @@
   transition: all 0.3s ease-in-out;
 }
 
+.is-hidden {
+  opacity: 0;
+  transition: transform 0.4s, opacity 0.2s;
+}
+
+.navbar-hide {
+  pointer-events: none;
+  opacity: 0;
+}
+
+#other .card {
+  box-shadow: none;
+}
+
