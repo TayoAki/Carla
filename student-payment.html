@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Payment - Genesis Healthcare Associates</title>
+    <meta name="description" content="Genesis Healthcare Associates, P.C. was founded in 2006 as part of a vision that Dr. Carla Neal-Haley had for a high touch, family centered care experience. The vision has evolved to bring us to our current reality: Genesis offers an excellent patient experience, combined with high clinical competence provided by a highly engaged healthcare team that is accountable to you and your family.
+
+Genesis actively works to make the patient an integral part of their own care. We realize that each patient must be empowered to take charge of their own healthcare. We realize that our healthcare team and each patient we serve must work together to maintain and improve the healthcare condition of every patient.">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aleo">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/divclick.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Map-Clean.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+    <link rel="stylesheet" href="assets/css/smoothproducts.css">
+    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-xl fixed-top bg-white clean-navbar smart-scroll" style="padding: 0;text-shadow: 0px 0px 1px rgb(136,51,138);">
+        <div class="container"><img id="logo" src="assets/img/logo/logo%20genesis.png"><a class="navbar-brand text-center logo" href="#" style="font-family: Aleo, serif;/*font-size: 23px;*/">GENESIS HEALTHCARE <br>ASSOCIATES</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto" style="margin: 0;">
+                    <li class="nav-item" style="padding: 0px 10px 0px 0px;color: rgb(116,16,119);"><a class="nav-link" href="index.html" style="padding: 0px;color: rgb(136,51,138);">Home</a></li>
+                    <li class="nav-item" style="padding: 0px 10px 0px 0px;"><a class="nav-link" href="about-us.html" style="padding: 0;color: rgb(136,51,138);">About Us</a></li>
+                    <li class="nav-item" style="padding: 0px 10px 0px 0px;"><a class="nav-link active" href="registration.html" style="padding: 0;color: rgb(136,51,138);">Registration</a></li>
+                    <li class="nav-item" style="padding: 0px 10px 0px 0px;"><a class="nav-link" href="nursing-clinical.html" style="padding: 0;color: rgb(136,51,138);">Advanced Practice Nursing Clinicals</a></li>
+                    <li class="nav-item dropdown" style="padding: 0px 10px 0px 0px;"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#" style="height: 19.2px;padding: 0;color: rgb(136,51,138);">Payments</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="patient-payment.html">Patient Payments</a><a class="dropdown-item" href="student-payment.html">Student Payments</a></div>
+                    </li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <main class="page payment-page">
+        <section class="clean-block payment-form dark">
+            <div class="container">
+                <div class="block-heading"></div>
+                <form style="border-top-color: rgb(136,51,138);">
+                    <div>
+                        <div id="smart-button-container">
+                            <div class="card-details">
+                                <h3 class="title">Make A Payment</h3>
+                                <div class="form-row">
+                                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                                        <div class="form-group"><label for="description"><strong>Advanced Practice Nurse Clinicals</strong><br></label><input class="form-control" type="text" id="description" placeholder="Please Enter Name" name="descriptionInput"></div>
+                                        <p id="descriptionError"
+                                            class="above" style="visibility:hidden; color:red; text-align: left;">Please enter a description</p>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                                        <div class="form-group"><label for="amount">Payment Amount</label><input class="form-control" type="number" id="amount" placeholder="USD" name="amountInput">
+                                            <p id="priceLabelError" style="visibility: hidden; color:red; text-align: left;">Please enter a price</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-12 col-xl-12">
+                                        <div class="form-group" id="invoiceidDiv"><label for="invoiceid"><strong>Total Clinical Hours</strong><br></label><input class="form-control" type="text" id="invoiceid" placeholder="Please Enter Total Hours" name="invoiceid">
+                                            <p id="invoiceidError" style="visibility: hidden; color:red; text-align: left;">Please enter your hours</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-7 col-xl-12">   
+
+  
+    
+    <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
+  
+  <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
+  <script>
+  function initPayPalButton() {
+    var description = document.querySelector('#smart-button-container #description');
+    var amount = document.querySelector('#smart-button-container #amount');
+    var descriptionError = document.querySelector('#smart-button-container #descriptionError');
+    var priceError = document.querySelector('#smart-button-container #priceLabelError');
+    var invoiceid = document.querySelector('#smart-button-container #invoiceid');
+    var invoiceidError = document.querySelector('#smart-button-container #invoiceidError');
+    var invoiceidDiv = document.querySelector('#smart-button-container #invoiceidDiv');
+
+    var elArr = [description, amount];
+
+    if (invoiceidDiv.firstChild.innerHTML.length > 1) {
+      invoiceidDiv.style.display = "block";
+    }
+
+    var purchase_units = [];
+    purchase_units[0] = {};
+    purchase_units[0].amount = {};
+
+    function validate(event) {
+      return event.value.length > 0;
+    }
+
+    paypal.Buttons({
+      style: {
+        color: 'silver',
+        shape: 'rect',
+        label: 'pay',
+        layout: 'horizontal',
+        
+      },
+
+      onInit: function (data, actions) {
+        actions.disable();
+
+        if(invoiceidDiv.style.display === "block") {
+          elArr.push(invoiceid);
+        }
+
+        elArr.forEach(function (item) {
+          item.addEventListener('keyup', function (event) {
+            var result = elArr.every(validate);
+            if (result) {
+              actions.enable();
+            } else {
+              actions.disable();
+            }
+          });
+        });
+      },
+
+      onClick: function () {
+        if (description.value.length < 1) {
+          descriptionError.style.visibility = "visible";
+        } else {
+          descriptionError.style.visibility = "hidden";
+        }
+
+        if (amount.value.length < 1) {
+          priceError.style.visibility = "visible";
+        } else {
+          priceError.style.visibility = "hidden";
+        }
+
+        if (invoiceid.value.length < 1 && invoiceidDiv.style.display === "block") {
+          invoiceidError.style.visibility = "visible";
+        } else {
+          invoiceidError.style.visibility = "hidden";
+        }
+
+        purchase_units[0].description = description.value;
+        purchase_units[0].amount.value = amount.value;
+
+        if(invoiceid.value !== '') {
+          purchase_units[0].invoice_id = invoiceid.value;
+        }
+      },
+
+      createOrder: function (data, actions) {
+        return actions.order.create({
+          purchase_units: purchase_units,
+        });
+      },
+
+      onApprove: function (data, actions) {
+        return actions.order.capture().then(function (details) {
+          alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        });
+      },
+
+      onError: function (err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+  </script></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer dark" style="color: rgb(47,52,56);background: rgb(255,255,255);">
+        <div class="container text-center footer-item">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="#">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Registration</a></li>
+                <li class="list-inline-item"><a href="#">Nursing Clinicals</a></li>
+                <li class="list-inline-item"><a href="#">Payments</a></li>
+            </ul>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2020 Genesis Healthcare Associates&nbsp;</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/clickdiv.js"></script>
+    <script src="assets/js/scroll.js"></script>
+</body>
+
+</html>
