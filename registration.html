@@ -15,23 +15,17 @@ Genesis actively works to make the patient an integral part of their own care. W
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/simple-line-icons.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="assets/css/divclick.css">
-    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
-    <link rel="stylesheet" href="assets/css/Highlight-Clean.css">
+    <link rel="stylesheet" href="assets/css/genesis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
-    <link rel="stylesheet" href="assets/css/Map-Clean.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/smoothproducts.css">
-    <link rel="stylesheet" href="assets/css/Team-Boxed.css">
-    <link rel="stylesheet" href="assets/css/Team-Grid.css">
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-xl fixed-top bg-white clean-navbar smart-scroll" style="padding: 0;text-shadow: 0px 0px 1px rgb(136,51,138);">
-        <div class="container"><img id="logo" src="assets/img/logo/logo%20genesis.png"><a class="navbar-brand text-center logo" href="#" style="font-family: Aleo, serif;/*font-size: 23px;*/">GENESIS HEALTHCARE <br>ASSOCIATES</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div
-                class="collapse navbar-collapse" id="navcol-1">
+        <div class="container"><a href="index.html"><img id="logo" src="assets/img/logo/logo%20genesis.png"></a><a class="navbar-brand text-center logo" href="index.html" style="font-family: Aleo, serif;/*font-size: 23px;*/">GENESIS HEALTHCARE <br>ASSOCIATES</a><button data-toggle="collapse"
+                class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav ml-auto" style="margin: 0;">
                     <li class="nav-item" style="padding: 0px 10px 0px 0px;color: rgb(116,16,119);"><a class="nav-link" href="index.html" style="padding: 0px;color: rgb(136,51,138);">Home</a></li>
                     <li class="nav-item" style="padding: 0px 10px 0px 0px;"><a class="nav-link" href="about-us.html" style="padding: 0;color: rgb(136,51,138);">About Us</a></li>
@@ -41,13 +35,13 @@ Genesis actively works to make the patient an integral part of their own care. W
                         <div class="dropdown-menu"><a class="dropdown-item" href="patient-payment.html">Patient Payments</a><a class="dropdown-item" href="student-payment.html">Student Payments</a></div>
                     </li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <main class="page testimonials">
-        <section class="highlight-clean" style="background: linear-gradient(rgba(0,0,0,0.73) 97%, white 100%), url(&quot;assets/img/STUFF.jpg&quot;) center / cover;">
+        <section class="highlight-clean" style="background: linear-gradient(rgba(0,0,0,0.73) 97%, white 100%), url(&quot;assets/img/hero/skeleton.jpg&quot;) center / cover;">
             <div class="container registration-header">
-                <div class="text-center intro">
+                <div class="text-center intro" data-aos="fade-down" data-aos-once="true">
                     <h1 style="text-align: center;/*font-size: 55px;*/color: rgb(255,255,255);font-family: Aleo, serif;">Before You Arrive...</h1>
                     <p class="header-text" style="border-color: rgb(255,255,255);color: rgb(255,255,255);/*font-size: 30px;*//*max-width: 700px;*/">Before you arrive please be sure to review our <a href="#policy"><strong>office policies and procedures</strong></a>,&nbsp;<a href="#forms"><strong>registration forms</strong></a>&nbsp;, and our&nbsp;<a href="#services"><strong>list of services</strong>.</a>&nbsp;&nbsp;</p>
                 </div>
@@ -103,7 +97,9 @@ Genesis actively works to make the patient an integral part of their own care. W
                                     <h4><strong>Immunizations (3231)</strong><br></h4>
                                 </div>
                                 <div class="col-md-5 feature-box"><i class="fas fa-thermometer-three-quarters icon" style="color: rgb(116,16,119);"></i>
-                                    <h4><strong>Well Child Check-Ups</strong><br></h4>
+                                    <a class="services" href="#physicals" style="color: rgb(0,0,0);">
+                                        <h4 style="font-family: Montserrat, sans-serif;color: rgb(33,37,41);"><strong>Well Child Checks</strong><br></h4>
+                                    </a>
                                 </div>
                                 <div class="col-md-5 feature-box"><i class="fas fa-tree icon" style="border-color: rgb(116,16,119);color: rgb(116,16,119);"></i>
                                     <h4><strong>Asthma &amp; Allergy Action Plans</strong><br></h4>
@@ -130,6 +126,14 @@ Genesis actively works to make the patient an integral part of their own care. W
                         </div>
                     </div>
                 </div>
+                <div class="card services" id="physicals" style="/*box-shadow: none;*/margin-top: 75px;">
+                    <div class="card-body">
+                        <h4 class="card-title" style="font-family: Aleo, serif;color: rgb(116,16,119);">Physicals and Well Child Checks</h4>
+                        <p class="card-text">One of the best ways to stay healthy is through preventive care. That's why we have special "Well-Care Visits" (Physicals &amp; Well Child Checks) that are generally covered as part of a Preventive Services benefit. <br><br>There
+                            is no copay, coinsurance, or deductible for the benefit. Well-care visits focus on what you can do to prevent future disease or injury, or catch health problems before they become serious.<br><br>You may have health issues
+                            or conditions you're managing, but the focus of a well-care visit is to avoid future health issues.<br></p>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="forms" class="clean-block dark" style="padding-bottom: 0;">
@@ -137,17 +141,17 @@ Genesis actively works to make the patient an integral part of their own care. W
                 <div class="block-heading" style="padding: 0px;">
                     <h2 class="text-center" style="color: rgb(116,16,119);font-family: Aleo, serif;font-size: 50px;">Registration Forms</h2>
                 </div>
-                <div id="other" class="block-content">
+                <div id="other" class="block-content" style="padding: 10px;">
                     <div role="tablist" id="accordion-1">
                         <div class="card">
                             <div class="card-header" role="tab" style="color: rgb(116,16,119);">
-                                <h5 class="mb-0" style="color: rgb(116,16,119);"><a data-toggle="collapse" aria-expanded="false" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1" style="/*color: rgb(162,79,167);*/font-family: Aleo, serif;"><strong>Forms</strong></a></h5>
+                                <h5 class="mb-0" style="color: rgb(116,16,119);"><a data-toggle="collapse" aria-expanded="true" aria-controls="accordion-1 .item-1" href="#accordion-1 .item-1" style="/*color: rgb(162,79,167);*/font-family: Aleo, serif;"><strong>Forms</strong></a></h5>
                             </div>
-                            <div class="collapse item-1" role="tabpanel" data-parent="#accordion-1">
+                            <div class="collapse show item-1" role="tabpanel" data-parent="#accordion-1">
                                 <div class="card-body">
                                     <p class="card-text"><a href="http://www.genesishca.net/pdf/pre_registration_form.pdf" target="_blank" style="color: rgb(148,32,170);">Pre-Registration From</a><a href="http://www.genesishca.net/pdf/HIPAA.pdf" target="_blank" style="color: rgb(116,16,119);"><br>HIPPA</a>
                                         <a
-                                            href="http://www.genesishca.net/pdf/Allergy%20Test%20Questionaire.pdf" target="_blank" style="color: rgb(116,16,119);"><br>Medical Cannabis Packet</a><a href="http://www.genesishca.net/pdf/Allergy%20Test%20Questionaire.pdf" target="_blank" style="color: rgb(116,16,119);"><br>Adult Health Questionnaire</a><a href="http://www.genesishca.net/pdf/med_record_release.pdf"
+                                            href="http://www.genesishca.net/pdf/medical_cannabis_packet.pdf" target="_blank" style="color: rgb(116,16,119);"><br>Medical Cannabis Packet</a><a href="http://www.genesishca.net/pdf/adult_health_questionnaire.pdf" target="_blank" style="color: rgb(116,16,119);"><br>Adult Health Questionnaire</a><a href="http://www.genesishca.net/pdf/med_record_release.pdf"
                                                 target="_blank" style="color: rgb(116,16,119);"><br>Medical Record Release</a><a href="http://www.genesishca.net/pdf/registration_agreement1.pdf" target="_blank" style="color: rgb(116,16,119);"><br>Registration Agreement</a><br>
                                             <a
                                                 href="#"></a><a href="#"></a></p>
@@ -206,11 +210,11 @@ Genesis actively works to make the patient an integral part of their own care. W
     <footer class="footer dark" style="color: rgb(47,52,56);background: rgb(255,255,255);">
         <div class="container text-center footer-item">
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Registration</a></li>
-                <li class="list-inline-item"><a href="#">Nursing Clinicals</a></li>
-                <li class="list-inline-item"><a href="#">Payments</a></li>
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="about-us.html">About</a></li>
+                <li class="list-inline-item"><a href="registration.html">Registration</a></li>
+                <li class="list-inline-item"><a href="nursing-clinical.html">Nursing Clinicals</a></li>
+                <li class="list-inline-item"><a href="patient-payment.html">Payments</a></li>
             </ul>
         </div>
         <div class="footer-copyright">
@@ -224,7 +228,6 @@ Genesis actively works to make the patient an integral part of their own care. W
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/theme.js"></script>
-    <script src="assets/js/clickdiv.js"></script>
     <script src="assets/js/scroll.js"></script>
 </body>
 
