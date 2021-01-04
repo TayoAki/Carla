@@ -804,3 +804,9 @@ footer p {
   font-size: x-large;
 }
 
+.maintain-height {
+  display: block!important;
+  height: 100%;
+  width: 100%;
+}
+
