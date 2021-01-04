@@ -789,9 +789,9 @@ footer p {
 }
 
 .card {
-  box-shadow: 4px 4px rgb(166,173,180);
+  /*box-shadow: 4px 4px rgb(166,173,180);*/
   background: linear-gradient(145deg, #ffffff, #f0f0f0);
-  /*box-shadow: -20px -20px 41px #bebebe, 15px 15px 41px #ffffff;*/
+  box-shadow: 4px 4px 5px #676a6c, 15px 15px 41px #ffffff;
 }
 
 .bios .card-title h4 {
