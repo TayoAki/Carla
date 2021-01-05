@@ -69,12 +69,10 @@ Genesis actively works to make the patient an integral part of their own care. W
                                             <p id="invoiceidError" style="visibility: hidden; color:red; text-align: left;">Please enter your hours</p>
                                         </div>
                                     </div>
-                                    <div class="col-sm-7 col-xl-12">   
+                                    <div class="col-sm-7 col-xl-12"><div id="smart-button-container">
 
-  
-    
     <div style="text-align: center; margin-top: 0.625rem;" id="paypal-button-container"></div>
-  
+  </div>
   <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script>
   <script>
   function initPayPalButton() {
@@ -103,9 +101,9 @@ Genesis actively works to make the patient an integral part of their own care. W
     paypal.Buttons({
       style: {
         color: 'silver',
-        shape: 'rect',
+        shape: 'pill',
         label: 'pay',
-        layout: 'horizontal',
+        layout: 'vertical',
         
       },
 
